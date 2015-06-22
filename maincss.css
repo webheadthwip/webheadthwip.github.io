@@ -75,8 +75,10 @@ content {
     z-index: -1;
     padding-top: 5%;
 }
-img{
+.print{
     padding: 25px;
+    width:25%;
+    height:25%;
 }
 .caption{
     padding: 10px;
@@ -93,10 +95,8 @@ img{
     /*margin: 5%;*/
     flex-direction: row;
     height: auto;
-    background: red;
 }
 .item {
-    background: grey;
     width: 100%;
     height: auto;
     line-height: 200%;
