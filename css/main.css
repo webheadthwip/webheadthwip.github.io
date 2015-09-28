@@ -1,0 +1,306 @@
+html{
+   font-family: 'Lato', sans-serif;
+   background: url(../img/rock.jpg) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    border-top: 20px solid #222;
+    padding:0;
+    margin:0;
+}
+video#bgvid {
+position: fixed;
+right: 0;
+bottom: 0;
+width: auto;
+min-width: 100%;
+height: auto;
+min-height: 100%;
+z-index: -100;
+background: transparent url(img/coldwater.png) no-repeat;
+background-size: cover;
+}
+.logo {
+    background-color: #7c7e81;
+    padding: 15px 20px 17px 18px;
+    float: left;
+    font-size: 26pt;
+    width: 16px;
+    line-height: 8px;
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.logo,.dropdown, .dropdown ul li a, .footer{
+    color: #efefef;
+}
+.dropdown{
+    position:fixed;
+    float: left;
+    width: 200px;
+    height: 40px;
+    font-size: 16pt;
+    text-transform: uppercase;
+    background-color: #3d3d4e;
+    margin: 20px;
+    list-style: none;
+}
+.dropdown, .dropdown li{
+    line-height: 37px;
+    height: 40px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */ 
+}
+.dropdown ul{
+    list-style: none;
+    padding: 20px 0 50px 56px;
+    width: 250px;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform:translateY(-300px);
+    transition: opacity .5s ease-in-out, transform .3s;
+    -moz-transition: opacity .5s ease-in-out, transform .3s;
+    -webkit-transition: opacity .5s .1s ease-in-out, transform .4s;
+}
+.dropdown ul li{
+    margin:0;
+    padding-left: 10px;
+    border-left: 1px solid #7c7e81;
+    font-weight: 300;
+    width:0;
+    white-space: nowrap;
+    transition: width .5s ease-out;
+    -moz-transition: width .5s ease-out;
+    -webkit-transition: width .5s ease-out;
+}
+.dropdown ul li a{
+    text-decoration: none;
+}
+    .dropdown:hover > ul{
+        opacity: 1;
+        visibility: visible;
+        transform:translateY(0px);
+    }
+    .dropdown ul li:hover{
+        background-color: #3d3d4e;
+        width:200px;
+    }
+    .dropdown ul li:hover > a{
+/*        color: #3d3d4e;*/
+    }
+.content{
+    margin: 80px 7% 10% 33%;
+    max-width: 896px;
+    position: absolute;
+    right:0;
+}
+.header-content{
+}
+.title{
+    font-size: 20pt;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.title a{
+    color:#222;
+    text-decoration: none;
+}
+.header-right a{
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header-right a:last-child{
+    margin-right: 0;
+}
+    .title a:hover{
+        color: #fff;
+    }
+.main-content{
+    font-size: 12pt;
+    line-height: 1.2;
+    padding: 60px 7% 100px;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+    background-image: url(../img/noise_less.png);
+    outline: 7px solid #efefef;
+    -webkit-box-shadow: 0 40px 28px 8px rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0 40px 28px 8px rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+    box-shadow: 0 40px 28px 8px rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.main-content a, .main-content a:hover, .main-content a:visited{
+    color: #3d3d4e;
+}
+.main-content a:hover, .main-content a:visited{
+    text-decoration: none;
+}
+.light{
+   font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.boxline a, .boxline a:hover, .boxline a:visited{
+    color:#fff;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pic{
+    margin: 0 15px;
+    height: auto;
+    width: 200px;
+}
+.col1{
+    width: 50%;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+.black{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),url(../img/danny_uscri_conference_2015.jpg) no-repeat;
+    background-size: 150%;
+    background-position: right;
+    -webkit-transition: background-size 1s ease;
+    transition: background-size 1s ease;
+}
+.black:hover{
+    background-size: 180%;
+}
+.zoom{
+    color: #fff;
+    font-size: 24pt;
+    -webkit-transition: font-size .3s ease, background-size 2s ease, background-position 2s ease;
+    transition: font-size .3s ease, background-size 2s ease, background-position 2s ease;
+}
+    .zoom:hover{        
+        font-size: 20pt;
+        background-size: 180%;
+        background-position: center;
+    }
+.boxline{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.boxline img{
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.black .boxline img{
+    width: 67%;
+    height: 67%;
+    -webkit-transition: all 1s .2s ease;
+    transition: all 1s .2s ease;
+}
+.black .boxline:hover img{
+    width: 60%;
+    height: 60%;
+}
+.terra{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),url(../img/terrachanics/HUD11_30_13.png) no-repeat;
+    background-position: top;
+    background-size: 130%;
+}
+.print{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),url(../img/print/bookcover02.png) no-repeat;
+    background-size: 100%;
+}
+.trust{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),url(../img/display_trust.png) no-repeat;
+    background-size: 100%;
+}
+.boxline:hover{
+    width:80%;
+    height:80%;
+}
+figcaption{
+    text-align: center;
+}
+.list{
+    justify-content: space-around;
+}
+.list ul{
+    font-size: 16pt;
+    list-style: none;
+    line-height: 1.5;
+    padding: 0;
+}
+.list ul li{
+    font-size: 10pt;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.resp-img{
+    width:100%;
+    height:auto;
+    padding-bottom:0;
+} 
+.footer{
+    padding: 15px 7%;
+    font-size: 10pt;
+    background-color: #3d3d4e;    background-image: url(../img/noise_less.png);
+}
+/*************************************
+ * Basic lightbox styles. Notice the
+ * default 'display' is 'none'.
+ */
+.lightbox {
+  /** Hide the lightbox */
+  display: none;
+    
+  /** Apply basic lightbox styling */
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: black;
+  background: rgba(0,0,0,0.8);
+}
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+.lightbox:target {
+  /** Show lightbox when it is target */
+  display: block;
+
+  /** Remove default browser outline style */
+  outline: none;
+}
