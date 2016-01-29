@@ -1,4 +1,5 @@
 html{
+    font-size: 16pt;
    font-family: 'Lato', sans-serif;
    background: url(../img/rock.jpg) center center fixed;
     -webkit-background-size: cover;
@@ -20,7 +21,6 @@ body{
     width: 16px;
     line-height: 8px;
     margin-right: 15px;
-    font-family: 'Lato', sans-serif;
 }
 .logo,.dropdown, .dropdown ul li a, .footer{
     color: #efefef;
@@ -30,7 +30,7 @@ body{
     float: left;
     width: 200px;
     height: 40px;
-    font-size: 16pt;
+    font-size: 1rem;
     text-transform: uppercase;
     background-color: #3d3d4e;
     margin: 20px;
@@ -90,7 +90,7 @@ body{
 }
 
 .title{
-    font-size: 20pt;
+    font-size: 1.2rem;
     font-weight: 300;
     text-transform: uppercase;
     padding-bottom: 15px;
@@ -102,7 +102,7 @@ body{
     text-decoration: none;
 }
 .header-right a{
-    font-size: 10pt;
+    font-size: .8rem;
     font-weight: 700;
     line-height: 40px;
     text-decoration: none;
@@ -115,7 +115,7 @@ body{
         color: #fff;
     }
 .main-content{
-    font-size: 12pt;
+    font-size: .8rem;
     line-height: 1.2;
     padding: 60px 80px 100px;
     border: 1px solid #aaaaaa;
@@ -175,7 +175,7 @@ body{
 }
 .zoom{
     color: #fff;
-    font-size: 24pt;
+    font-size: 1.6rem;
     -webkit-transition: font-size .3s ease, background-size 2s ease, background-position 2s ease;
     transition: font-size .3s ease, background-size 2s ease, background-position 2s ease;
 }
@@ -249,7 +249,7 @@ figcaption{
     padding: 0;
 }
 .list ul li{
-    font-size: 10pt;
+    font-size: .8rem;
     padding-left: 15px;
     font-family: 'Lato', sans-serif;
 }
@@ -260,7 +260,7 @@ figcaption{
 } 
 .footer{
     padding: 15px 7%;
-    font-size: 10pt;
+    font-size: .6rem;
     background-color: #3d3d4e;    background-image: url(../img/noise_less.png);
 }
 /*************************************
