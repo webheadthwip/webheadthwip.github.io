@@ -306,12 +306,18 @@ figcaption{
         margin: 80px 30px;
         left:0;
     }
-}
-@media all and (max-resolution: 300dpi){
     .row{
         display:block;
     }
     .col1{
         margin: 0 auto;
     }
+    .title{
+    font-size: 2em;
+   }
+.header-right a{
+    font-size: 2em;
+}
+.main-content{
+    font-size: 12pt;
 }
