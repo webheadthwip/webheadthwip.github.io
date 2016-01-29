@@ -296,28 +296,4 @@ figcaption{
   outline: none;
 }
 
-/** Responsive Design*/
 
-@media all and (max-resolution: 300dpi) {
-    .dropdown{
-        display:none;
-    }
-    .content {
-        margin: 80px 30px;
-        left:0;
-    }
-    .row{
-        display:block;
-    }
-    .col1{
-        margin: 0 auto;
-    }
-    .title{
-    font-size: 3em;
-   }
-.header-right a{
-    font-size: 1em;
-}
-.main-content{
-    font-size: 3em;
-}
