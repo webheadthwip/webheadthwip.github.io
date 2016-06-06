@@ -335,6 +335,10 @@ h2{
     .col1{
         height: 265px;
     }
+    .row.light.list {
+        display: block;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 80em) {
   html {
