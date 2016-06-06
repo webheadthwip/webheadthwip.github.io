@@ -57,8 +57,8 @@
                         </div>
                     </div>
                     <h2 class="light" >Hello!</h2>
-                    <p>I'm Danny Tran. I am a designer, teacher, and gamer. In between developing websites and studying to become a full-stack web developer, I enjoy reading comics and spending time with my dog. Currently, I am studying JQuery, AJAX and enjoying my new ASUS STRIX GTX 970 graphics card.</p>
-                    <p>My current job as a web development intern at US Committee for Refugees and Immigrants has me developing an intranet website for the organization and its six branches. Using HTML5 and CSS3 on a SharePoint platform, I am the sole developer and designer working on the site to meet the needs of my managers. </p>
+                    <p>I'm Danny Tran. I am a designer, teacher, and gamer. In between developing websites, I enjoy reading comics and spending time with my dog. Currently,  I am learning about WordPress, Sitefinity and JavaScript.</p>
+                    <p>My current job as a Front-End Developer at Matrix Group International working with Wordpress and Sitefinity. My workflow includes using Gulp, Sass, Vagrant, Atom Text Editor, Cmdr, and SourceTree.</p>
                 </div>
             </div>
             <div class="footer">
