@@ -1,0 +1,19 @@
+{
+    "author": "Matrix Group International",
+    "devDependencies": {
+        "autoprefixer": "^6.3.6",
+        "browserify": "^9.0.3",
+        "gulp": "^3.8.11",
+        "gulp-if": "^1.2.5",
+        "gulp-notify": "^2.2.0",
+        "gulp-postcss": "^6.1.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^2.2.0",
+        "gulp-size": "^1.2.1",
+        "gulp-sourcemaps": "^2.0.0-alpha",
+        "gulp-uglify": "^1.1.0",
+        "gulp-util": "^3.0.4",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0"
+    }
+}
