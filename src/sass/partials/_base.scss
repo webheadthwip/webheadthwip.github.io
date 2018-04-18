@@ -1,0 +1,88 @@
+* {
+    text-rendering: optimizeLegibility;
+    text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $white;
+    //background-image: url("/build/images/black_noise.jpg");
+    font-family: $primaryfont;
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $secondaryfont;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    color: $red;
+    // color: #dedfd9;
+    // text-shadow: 2px 2px #2a2720;
+}
+
+h2 {
+    font-size: 30px;
+    color: $purple;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-family: $primaryfont;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    width: 8%;
+    border: 2px solid $purple;
+    margin: 7px 0;
+}
+
+ul.list-lg {
+    list-style: none;
+    font-family: $secondaryfont;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 2rem;
+    li {
+        padding: 0.5rem 0;
+    }
+}
+ul.list-med {
+    list-style: none;
+    margin: 1rem;
+    li {
+        padding: 0.25rem 0;
+    }
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/league_spartan/leaguespartan-bold.eot');
+    src: url('../fonts/league_spartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_spartan/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/league_spartan/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/league_spartan/leaguespartan-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('../fonts/code_new_roman/Code New Roman.otf');
+    src: url('../fonts/code_new_roman/Code New Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('../fonts/code_new_roman/Code New Roman b.otf');
+    src: url('../fonts/code_new_roman/Code New Roman b.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Code New Roman';
+    src: url('../fonts/code_new_roman/Code New Roman i.otf');
+    src: url('../fonts/code_new_roman/Code New Roman i.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

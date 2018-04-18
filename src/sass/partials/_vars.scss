@@ -1,0 +1,29 @@
+$mobile: 920px;
+$portrait: 1024px;
+$landscape: 1200px;
+$wide: 1600px;
+
+$white: #f2f2f2;
+$red: #fc3f2b;
+$purple: #3e354f;
+$gray: #eaeaea;
+$yellow: #f9dc5c;
+$blue: #96ceb4;
+
+$primaryfont: "Code New Roman", monospace;
+$secondaryfont: "League Spartan", "Futura", "Helvetica", sans-serif;
+
+$colors: (
+    white: $white,
+    red: $red,
+    purple: $purple,
+    gray: $gray,
+    yellow: $yellow,
+    blue: $blue
+);
+
+@each $key, $value in $colors {
+    .bkg-#{$key} {
+        background-color: #{$value};
+    }
+}
