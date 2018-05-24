@@ -164,6 +164,9 @@ ul.list-med {
 .container {
   display: flex; }
 
+a {
+  color: #fc3f2b; }
+
 aside {
   flex-basis: 100px;
   font-size: 32px;
